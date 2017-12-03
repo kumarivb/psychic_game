@@ -2,10 +2,16 @@
 		$(document).ready(function() {
 
 	//	determine how many guesses user gets
+		var numOfGuesses = 15;
 
+	// 	track number of guesses, wins, and losses
+		var guessCounter = 0;
+		var winCounter = 0;
+		var lossCounter = 0;
 
-	//  computer to randomly choose a letter
-
+	//  computer to randomly choose a letter, letter choices
+		var randomLetter = "";
+		var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 
 	//	capture computers choice
 
