@@ -1,3 +1,21 @@
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	max-width: 100%;
+}
 .container {
 	margin: 40px 0px 0px 40px;
+}
+
+.header {
+	margin: 0px 0px 20px 0px;
+}
+
+h1 {
+	font-weight: bolder;
+	line-height: 25px;
+	font-size: 18px;
+}
+
+h2 {
+	line-height: 20px; 
 }
