@@ -24,6 +24,8 @@
 //	display user guesses
 	guessesSoFar.push(userGuess);
 
+	console.log(guessesSoFar);
+
 //	compare computers choice to users guess and see if they match or not, winner, reset
 	if (userGuess == compLetterChoice) {
 		winCounter++;
@@ -46,8 +48,11 @@
 	}
 
 // 	display results in html
-	document.getElementById("wins").innerHTML = + wins 
-
+	document.getElementById("wins").innerHTML = winCounter;
+	document.getElementById("loses").innerHTML = lossCounter;
+	document.getElementById("guessLeft").innerHTML = guessesLeft;
+	document.getElementById("guessSoFar").innerHTML = guessesSoFar;
+	
 //	compare computers choice to users guess and see if they match or not, loser
 //	determine a win or a loss
 //	display the result (win,loss)
