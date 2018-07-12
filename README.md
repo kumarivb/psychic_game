@@ -15,3 +15,6 @@ A simple guess what letter the computer is thinking of game.
 
 ### Challenges
 Understanding empty arrays and how to structure my if/else statements.
+
+### Link
+[Try it](https://kumarivb.github.io/psychic_game/)
