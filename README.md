@@ -17,4 +17,4 @@ A simple guess what letter the computer is thinking of game.
 Understanding empty arrays and how to structure my if/else statements.
 
 ### Link
-[Try it](https://kumarivb.github.io/psychic_game/)
+[Psychic Game](https://kumarivb.github.io/psychic_game/)
